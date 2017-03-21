@@ -1,0 +1,90 @@
+body{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+header{
+    width:100%;
+    position: relative;
+    height:50px;
+    background: black;
+    z-index: 22;
+}
+header a{
+    text-decoration: none;
+}
+.header_logo{
+    width:200px;
+}
+.header_menu{
+    width:100px;
+    text-decoration: none;
+}
+.header_menu:hover{
+    background: green;
+    text-decoration: none;
+    color: white;
+}
+.header_a{
+    height:50px;
+    display: block;
+    position: relative;
+    float: left;
+    text-align: center;
+    line-height:50px;
+    margin-left: 10px;
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    color: white;
+}
+.content{
+    width:100%;
+    min-height:calc(100vh - 150px); /*vh表示显示器高度，150为header和footer的高度，做兼容的时候要主意*/
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom:30px;
+    z-index:88;
+}
+footer{
+    width:100%;
+    height:100px;
+    background: black;
+    position: relative;
+    z-index:11;
+}
+.footer_link{
+    width:100%;
+    height:50px;
+    text-align: center;
+    line-height:50px;
+}
+.footer_link a{
+    color: rgb(188,188,188);
+    text-decoration: none;
+}
+.footer_link a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.footer_copyrights{
+    width:100%;
+    height:20px;
+    text-align: center;
+    line-height:20px;
+}
+.footer_copyrights a{
+    color: rgb(88, 88, 88);
+    cursor: default;
+}
+.footer_authorities{
+    width:100%;
+    height:20px;
+    text-align: center;
+    line-height:20px;
+}
+.footer_authorities a{
+    color: rgb(88, 88, 88);
+    cursor: default;
+}
